@@ -1,0 +1,98 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* promocao */
+.all-promocao {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    background-color: #000;
+}
+
+.all-promocao div {
+    border: none;
+    border-radius: 0;
+    height: 51px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.all-promocao div:nth-child(1) {
+    border-left: none;
+
+}
+
+.all-promocao div:nth-child(4) {
+    border-right: none;
+
+}
+/* navbar */
+.navbar {
+    background-color: #000;
+}
+.navbar svg{
+    color: #fff;
+    margin-left:10px;
+}
+/* footer */
+.all-footer a {
+    text-decoration: none;
+
+}
+
+.all-footer i {
+    background-color: #000;
+}
